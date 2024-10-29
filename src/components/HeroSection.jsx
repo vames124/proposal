@@ -24,7 +24,7 @@ const HeroSection = () => {
 //   );
 return (
   <div className='main'>
-  <video src={heroVideo} autoPlay loop muted></video>
+  <video src={heroVideo} autoPlay loop muted playsInline></video>
   <div className='content'>
       I love you.
   </div>
